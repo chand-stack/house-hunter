@@ -46,8 +46,8 @@ const Navbar = () => {
     </>
   );
   return (
-    <div>
-      <div className="navbar bg-base-100">
+    <div className="w-full">
+      <div className="navbar bg-base-100 container mx-auto">
         <div className="flex-1">
           <div className="flex flex-col items-center">
             <MdHomeWork className="text-3xl" />{" "}
