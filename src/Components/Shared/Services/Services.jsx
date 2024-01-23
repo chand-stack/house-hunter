@@ -9,7 +9,7 @@ const Services = () => {
         <h1 className="text-center text-3xl md:text-5xl font-bold">
           HouseHunter Services
         </h1>
-        <p className="w-3/4 mx-auto text-center">
+        <p className="w-3/4 mx-auto text-center my-3 font-medium">
           Explore the seamless services of HouseHunter, where finding your dream
           home or listing your property is made effortless. Our platform
           connects renters and property owners for a stress-free and streamlined
