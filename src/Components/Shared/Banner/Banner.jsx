@@ -7,7 +7,7 @@ const Banner = () => {
           <div className="text-center lg:text-left">
             <img src={bnimg} alt="" />
           </div>
-          <div className="card shrink-0 w-full max-w-sm shadow-2xl bg-base-100 p-5 md:p-14">
+          <div className="card shrink-0 w-full max-w-sm shadow-2xl bg-base-100 p-5 md:p-14 text-black">
             <h1 className="text-3xl md:text-5xl font-semibold">
               Your Dream Home Awaits
             </h1>

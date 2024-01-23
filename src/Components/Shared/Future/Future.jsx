@@ -15,7 +15,7 @@ const Future = () => {
           <img className="mx-auto" src={img2} alt="" />
         </div>
       </div>
-      <div className="bg-base-300 p-5 md:p-10 rounded-3xl md:mx-10">
+      <div className="bg-base-300 p-5 md:p-10 rounded-3xl md:mx-10 text-black">
         <h1 className="text-3xl md:text-5xl font-bold text-center">
           The future is flexible
         </h1>
