@@ -1,4 +1,5 @@
 import Banner from "../../Shared/Banner/Banner";
+import Corporate from "../../Shared/Corporate/Corporate";
 import Future from "../../Shared/Future/Future";
 import Locations from "../../Shared/Locations/Locations";
 import Services from "../../Shared/Services/Services";
@@ -12,6 +13,7 @@ const Home = () => {
       <Services />
       <Locations />
       <StartBooking />
+      <Corporate />
     </div>
   );
 };

@@ -3,11 +3,12 @@ const StartBooking = () => {
   return (
     <div>
       <div
-        className="h-52 md:h-96"
+        className="h-52 md:h-96 lg:h-[500px] w-full"
         style={{
           backgroundImage: `url(${bg})`,
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
+          backgroundPosition: "center",
         }}
       >
         <div className="h-full w-full bg-gradient-to-r from-black flex justify-center items-center">
