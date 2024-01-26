@@ -4,7 +4,7 @@ import { FaFileAlt } from "react-icons/fa";
 const Corporate = () => {
   return (
     <div>
-      <div className=" container mx-auto mt-10 text-black">
+      <div className=" container mx-auto text-black mt-36">
         <h1 className="text-center text-3xl md:text-5xl font-bold">
           Corporate Partnerships
         </h1>
@@ -14,18 +14,18 @@ const Corporate = () => {
           your needs
         </p>
       </div>
-      <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-5">
-        <div className="bg-[#E2F1E8] text-black p-10 rounded-2xl">
+      <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-5 md:px-10 mt-16">
+        <div className="bg-[#E2F1E8] text-black p-10 rounded-2xl space-y-4">
           <CiSearch className="text-6xl" />
           <h1 className="text-2xl font-bold">Booking manager</h1>
           <p>We do the searching for you</p>
         </div>
-        <div className="bg-[#E2F1E8] text-black p-10 rounded-2xl">
+        <div className="bg-[#E2F1E8] text-black p-10 rounded-2xl space-y-4">
           <HiUser className="text-6xl" />
           <h1 className="text-2xl font-bold">Account manager</h1>
           <p>Preferred partner rates</p>
         </div>
-        <div className="bg-[#E2F1E8] text-black p-10 rounded-2xl">
+        <div className="bg-[#E2F1E8] text-black p-10 rounded-2xl space-y-4">
           <FaFileAlt className="text-6xl" />
           <h1 className="text-2xl font-bold">Flexible terms</h1>
           <p>Extend on short notice</p>
