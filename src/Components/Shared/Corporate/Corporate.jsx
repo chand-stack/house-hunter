@@ -16,7 +16,7 @@ const Corporate = () => {
       </div>
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-5 md:px-10 mt-16">
         <div className="bg-[#E2F1E8] text-black p-10 rounded-2xl space-y-4">
-          <CiSearch className="text-6xl" />
+          <CiSearch className="text-6xl font-bold" />
           <h1 className="text-2xl font-bold">Booking manager</h1>
           <p>We do the searching for you</p>
         </div>

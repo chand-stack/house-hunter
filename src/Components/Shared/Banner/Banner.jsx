@@ -1,8 +1,11 @@
-import bnimg from "./../../../assets/Image (19).png";
+import bnimg from "./../../../assets/ImageBanner.png";
 const Banner = () => {
   return (
     <div>
-      <div className="hero min-h-screen bg-base-200">
+      <div
+        className="hero min-h-screen "
+        style={{ backgroundImage: `url(${bnimg})` }}
+      >
         <div className="hero-content flex-col lg:flex-row-reverse">
           <div className="text-center lg:text-left">
             <img src={bnimg} alt="" />
