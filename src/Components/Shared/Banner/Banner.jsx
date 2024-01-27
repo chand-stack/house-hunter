@@ -3,7 +3,7 @@ const Banner = () => {
   return (
     <div>
       <div
-        className="hero min-h-screen "
+        className="hero min-h-screen"
         style={{ backgroundImage: `url(${bnimg})` }}
       >
         <div className="hero-content flex-col lg:flex-row-reverse">
