@@ -4,8 +4,8 @@ import { FaFacebookF } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 const Footer = () => {
   return (
-    <div>
-      <footer className="footer p-10 bg-white text-black pt-28">
+    <div className="bg-white">
+      <footer className="footer p-10 bg-white text-black pt-28 container mx-auto">
         <nav>
           <div className="flex flex-col items-center">
             <MdHomeWork className="text-3xl text-[#064749]" />{" "}
