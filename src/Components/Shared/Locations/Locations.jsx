@@ -10,7 +10,7 @@ const Locations = () => {
       <h1 className="text-3xl md:text-5xl font-bold text-center my-16">
         Choose your location
       </h1>
-      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 items-center my-5">
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 items-center my-5 md:px-10">
         <div>
           <h1 className="text-2xl font-bold text-center">Shoreditch</h1>
           <img className="mx-auto" src={img} alt="" />
