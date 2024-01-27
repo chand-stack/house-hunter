@@ -1,5 +1,6 @@
 import Banner from "../../Shared/Banner/Banner";
 import Corporate from "../../Shared/Corporate/Corporate";
+import Footer from "../../Shared/Footer/Footer";
 import Future from "../../Shared/Future/Future";
 import Locations from "../../Shared/Locations/Locations";
 import Review from "../../Shared/Review/Review";
@@ -16,6 +17,7 @@ const Home = () => {
       <StartBooking />
       <Corporate />
       <Review />
+      <Footer />
     </div>
   );
 };

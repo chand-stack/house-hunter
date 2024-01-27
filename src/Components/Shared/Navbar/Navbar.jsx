@@ -47,10 +47,10 @@ const Navbar = () => {
   );
   return (
     <div className="w-full">
-      <div className="navbar bg-base-100 container mx-auto">
+      <div className="navbar bg-base-100 container mx-auto md:px-10">
         <div className="flex-1">
           <div className="flex flex-col items-center">
-            <MdHomeWork className="text-3xl" />{" "}
+            <MdHomeWork className="text-3xl text-[#064749]" />{" "}
             <p className="text-lg font-bold">House Hunter</p>
           </div>
         </div>
