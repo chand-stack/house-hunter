@@ -1,5 +1,11 @@
+import LandlordBanner from "../../Shared/LandlordBanner/LandlordBanner";
+
 const Landlords = () => {
-  return <div></div>;
+  return (
+    <div>
+      <LandlordBanner />
+    </div>
+  );
 };
 
 export default Landlords;
