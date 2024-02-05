@@ -8,7 +8,7 @@ const Pricing = () => {
           Compare our pricing model to high street agents
         </p>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-5 container mx-auto px-4 md:px-10 lg:px-20 mt-14 mb-28">
+      <div className="grid grid-cols-1 lg:grid-cols-5 container mx-auto px-4 md:px-10 lg:px-20 mt-14 mb-28">
         <div className="col-span-2 border rounded-2xl drop-shadow-md">
           <div className="bg-[#E2F1E8] text-center text-black py-10 px-20 rounded-t-2xl">
             <h1 className="text-2xl  font-semibold">High Street Agents</h1>
