@@ -1,5 +1,6 @@
 import LandlordBanner from "../../Shared/LandlordBanner/LandlordBanner";
 import CorporateLandlord from "../../Shared/LandlordPage/CorporateLandlord/CorporateLandlord";
+import Faq from "../../Shared/LandlordPage/Faq/Faq";
 import HowWorks from "../../Shared/LandlordPage/HowWorks/HowWorks";
 import Pricing from "../../Shared/LandlordPage/Pricing/Pricing";
 import Property from "../../Shared/LandlordPage/Property/Property";
@@ -12,6 +13,7 @@ const Landlords = () => {
       <HowWorks />
       <CorporateLandlord />
       <Pricing />
+      <Faq />
     </div>
   );
 };
