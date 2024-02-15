@@ -1,7 +1,9 @@
 import bnimg from "../../../../assets/blogbanner.png";
+import NewsTabs from "../NewsTabs/NewsTabs";
 const BlogpageBanner = () => {
   return (
     <div>
+      <NewsTabs />
       <div
         className="hero min-h-screen"
         style={{ backgroundImage: `url(${bnimg})` }}
