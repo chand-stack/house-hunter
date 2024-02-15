@@ -1,7 +1,9 @@
+import BlogpageBanner from "../../Shared/BlogPage/BlogpageBanner/BlogpageBanner";
+
 const Blog = () => {
   return (
     <div>
-      <h1>this is blog page</h1>
+      <BlogpageBanner />
     </div>
   );
 };
