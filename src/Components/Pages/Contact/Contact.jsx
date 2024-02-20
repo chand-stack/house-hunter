@@ -67,7 +67,7 @@ const Contact = () => {
                   clipRule="evenodd"
                 />
               </svg>
-              <input type="text" className="grow" placeholder="Number" />
+              <input type="text" className="grow" placeholder="Phone Number" />
             </label>
             <textarea
               placeholder="Message"
