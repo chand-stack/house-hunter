@@ -7,7 +7,7 @@ const ReadBlog = () => {
       </h1>
       <div className="carousel carousel-center w-full p-4 space-x-4 bg-white rounded-box my-10">
         <div className="carousel-item">
-          <div className="card w-96 rounded-box bg-base-100 shadow-xl">
+          <div className="card w-96 rounded-box bg-base-200 border mx-auto">
             <figure>
               <img
                 src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
