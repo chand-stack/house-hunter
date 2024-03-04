@@ -1,7 +1,7 @@
 const Searchbar = () => {
 
     return (
-        <div className=" mx-auto">
+        <div className="">
             <div className="join mx-auto">
   <div>
     <div>
