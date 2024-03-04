@@ -9,7 +9,7 @@ const Searchbar = () => {
     </div>
   </div>
   <select className="select select-bordered join-item">
-    <option disabled selected>Filter</option>
+    <option disabled selected>Guest</option>
     <option>Sci-fi</option>
     <option>Drama</option>
     <option>Action</option>
