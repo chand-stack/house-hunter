@@ -4,6 +4,7 @@ import Home from "../Components/Pages/Home/Home";
 import Landlords from "../Components/Pages/Landlords/Landlords";
 import Blog from "../Components/Pages/Blog/Blog";
 import Contact from "../Components/Pages/Contact/Contact";
+import Booking from "../Components/Pages/Booking/Booking";
 
 const routes = createBrowserRouter([
   {
@@ -26,6 +27,10 @@ const routes = createBrowserRouter([
         path: "/contact",
         element: <Contact />,
       },
+    {
+      path:"/booking",
+      element:<Booking/>
+    }
     ],
   },
 ]);
