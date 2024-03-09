@@ -7,8 +7,8 @@ function HotelList() {
   return (
     <div className='co mx-auto'>
          <div className='grid grid-cols-1 md:grid-cols-2'>
-            <div>
-                <img src={hotelimg} alt="" />
+            <div className=''>
+                <img className='h-52 ' src={hotelimg} alt="" />
                 <div>
                     <h1 className='text-2xl font-semibold'>Rhoncus suspendisse penatibus mauris, sit non</h1>
                     <div className='flex items-center gap-3 '>
